@@ -1,0 +1,27 @@
+[
+  {
+    "name": "_Lock screen",
+    "exec": "swaylock -f -i '/home/vishnu/.config/nwg-launchers/nwgbar/lambo.jpg'",
+    "icon": "/home/vishnu/.config/nwg-launchers/nwgbar/lock.svg"
+  },
+  {
+  	"name": "Suspen_d",
+    "exec": "systemctl suspend",
+  	"icon": "/home/vishnu/.config/nwg-launchers/nwgbar/suspend.svg"
+  },
+  {
+    "name": "Logou_t",
+    "exec": "hyprctl dispatch exit 0",
+    "icon": "/home/vishnu/.config/nwg-launchers/nwgbar/logout.svg"
+  },
+  {
+    "name": "_Reboot",
+    "exec": "systemctl reboot",
+    "icon": "/home/vishnu/.config/nwg-launchers/nwgbar/reboot.svg"
+  },
+  {
+    "name": "_Shutdown",
+    "exec": "systemctl -i poweroff",
+    "icon": "/home/vishnu/.config/nwg-launchers/nwgbar/shutdown.svg"
+  }
+]
